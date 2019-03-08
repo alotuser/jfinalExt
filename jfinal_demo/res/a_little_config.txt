@@ -1,0 +1,5 @@
+#jdbcUrl = jdbc:mysql://localhost/jfinal_demo?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+jdbcUrl = jdbc:oracle:thin:@137.168.113.6:1521:test
+user = test
+password =test
+devMode = false
