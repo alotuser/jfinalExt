@@ -3,10 +3,11 @@
                                         
                                         
                                         
- /**
+ 	/**
 	 * save 与 update 的业务逻辑在实际应用中也应该放在 serivce 之中，
 	 * 并要对数据进正确性进行验证，在此仅为了偷懒
 	 */
+	 ///
 	@Before(BlogValidator.class)
 	public void save() {
 		getBean(Blog.class).save();//此方法不安全，请参考 update方法
@@ -16,6 +17,7 @@
 	 * save 与 update 的业务逻辑在实际应用中也应该放在 serivce 之中，
 	 * 并要对数据进正确性进行验证，在此仅为了偷懒
 	 */
+	 ////
 	@Before(BlogValidator.class)
 	public void update() {
 		//注： 在Blog表新增money字段类型为number并且可为空
